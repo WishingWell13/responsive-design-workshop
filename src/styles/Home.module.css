@@ -20,5 +20,7 @@
 .news_cards {
   width: 90%;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
   /* Add your styling here */
 }

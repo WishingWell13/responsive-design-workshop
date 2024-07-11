@@ -48,20 +48,25 @@
 */
 
 /* Uncomment this starter code! */
-/* @media {
+@media screen and (max-width:768px){
     .hamburger {
+      display: flex;
+      flex-direction: column;
 
     }
     .nav_bar {
-
+      flex-direction: column;
+      display: flex;
     }
 
     .links {
-
+      display: none;
     }
 
     .links_show {
       width: 100%;
       background-color: lightgray;
+      display: flex;
+      flex-direction: column;
     }
-} */
+}
